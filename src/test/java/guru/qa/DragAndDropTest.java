@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class DragAndDropTest {
     @Test
-            void changeElement() {
+    void changeElement() {
         //Открыть сайт
         Selenide.open("https://the-internet.herokuapp.com/drag_and_drop");
         // Перенесим прямоугольник А на место В
